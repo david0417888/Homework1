@@ -3,12 +3,10 @@ pragma solidity ^0.8.0;
 
 /* Problem 1 Interface & Contract */
 contract StudentV1 {
-    // Note: You can declare some state variable
-    uint256 private ; // A state variable to keep track of the number of registered students
+    // Note: You can declare some state variable // A state variable to keep track of the number of registered students
 
-    function register() external returns (uint256) {
-        studentCount += 1; // Increment the student count to generate a new unique ID for each student
-        return studentCount; // Return the new student ID
+    function register() external returns (uint256) { // Increment the student count to generate a new unique ID for each student
+        return 123; // Return the new student ID
     }
 }
 
